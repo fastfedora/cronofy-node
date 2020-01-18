@@ -286,6 +286,7 @@ cronofy.prototype.profileInformation = function () {
 };
 
 cronofy.prototype.readEvents = function () {
+console.log("[cronofy] readEvents");
   var details = this._parseArguments(arguments, ['access_token']);
 
   if (details.options.next_page) {
