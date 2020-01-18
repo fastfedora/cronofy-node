@@ -50,6 +50,8 @@ var clone = function (obj) {
     }
   }
 
+console.log("[cronofy] clone", obj, res);
+
   return res;
 };
 
